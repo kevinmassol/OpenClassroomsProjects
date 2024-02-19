@@ -11,7 +11,7 @@ import SwiftUI
 struct OpenClassroomsProjectsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AnimalsListView()
         }
     }
 }
