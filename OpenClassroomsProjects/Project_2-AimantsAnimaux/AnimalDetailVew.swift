@@ -56,5 +56,5 @@ struct AnimalDetailView: View {
 }
 
 #Preview {
-    AnimalDetailView(animal: Animal(name: "Max", breed: .dog, age: 5, weight: 8, size: 20))
+    AnimalDetailView(animal: animalList[0])
 }
