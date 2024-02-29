@@ -52,5 +52,10 @@ func getImageName(breed: Breed) -> String {
 
 // Represente la liste des animaux de l'association
 // C'est ce tableau que l'on affiche sur la premiere vue
-var animalList: [Animal] = [Animal(name: "Max", breed: .dog, age: 5, weight: 8, size: 20), Animal(name: "Nuage", breed: .rabbit, age: 2, weight: 1.5, size: 10), Animal(name: "Blanche", breed: .bird, age: 1, weight: 0.2, size: 10), Animal(name: "Francis", breed: .fish, age: 0.3, weight: 0.2, size: 2.1)]
+var animalList: [Animal] = [
+    Animal(name: "Max", breed: .dog, age: 5, weight: 8, size: 20),
+    Animal(name: "Nuage", breed: .rabbit, age: 2, weight: 1.5, size: 10),
+    Animal(name: "Blanche", breed: .bird, age: 1, weight: 0.2, size: 10),
+    Animal(name: "Francis", breed: .fish, age: 0.3, weight: 0.2, size: 2.1)
+]
 
