@@ -20,7 +20,6 @@ struct AnimalsListView: View {
                     .background(.clear)
                     .frame(height: 130)
                     .aspectRatio(contentMode: .fit)
-                
                 List(animalList, id: \.name) { animal in
                     NavigationLink {
                         AnimalDetailView(animal: animal)
@@ -55,6 +54,11 @@ struct AnimalsListView: View {
                     .foregroundColor(Color.green)
                     .frame(width: 40, height: 40)
                     .padding(8)
+                    .clipShape(Circle())
+                    .overlay {
+                        Circle()
+                            .stroke(.green, lineWidth: 5)
+                    }
                 Text(animal.name)
                     .bold()
                 Spacer()
