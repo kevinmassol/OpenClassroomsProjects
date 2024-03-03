@@ -57,7 +57,7 @@ struct AnimalsListView: View {
                     .clipShape(Circle())
                     .overlay {
                         Circle()
-                            .stroke(.green, lineWidth: 5)
+                            .stroke(.green, lineWidth: 3)
                     }
                 Text(animal.name)
                     .bold()
