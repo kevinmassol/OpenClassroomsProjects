@@ -14,6 +14,7 @@
 		0A6D6E7E2B83DABF006CC22B /* AnimalDetailVew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6D6E7D2B83DABF006CC22B /* AnimalDetailVew.swift */; };
 		0A6D6E802B83DB6A006CC22B /* AddNewAnimalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6D6E7F2B83DB6A006CC22B /* AddNewAnimalView.swift */; };
 		0A6D6E822B83DBC8006CC22B /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6D6E812B83DBC8006CC22B /* ViewModel.swift */; };
+		0AFF49772BA9769F007B87A3 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFF49762BA9769F007B87A3 /* WelcomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		0A6D6E7D2B83DABF006CC22B /* AnimalDetailVew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailVew.swift; sourceTree = "<group>"; };
 		0A6D6E7F2B83DB6A006CC22B /* AddNewAnimalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewAnimalView.swift; sourceTree = "<group>"; };
 		0A6D6E812B83DBC8006CC22B /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		0AFF49762BA9769F007B87A3 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			children = (
 				0A6D6E6A2B83D657006CC22B /* OpenClassroomsProjectsApp.swift */,
 				0A6D6E782B83D739006CC22B /* Project_2-AimantsAnimaux */,
+				0AE1C5EF2BA7A5340045661C /* Project_3-TajMahal */,
 				0A6D6E6E2B83D659006CC22B /* Assets.xcassets */,
 				0A6D6E702B83D659006CC22B /* Preview Content */,
 			);
@@ -82,6 +85,14 @@
 				0A6D6E812B83DBC8006CC22B /* ViewModel.swift */,
 			);
 			path = "Project_2-AimantsAnimaux";
+			sourceTree = "<group>";
+		};
+		0AE1C5EF2BA7A5340045661C /* Project_3-TajMahal */ = {
+			isa = PBXGroup;
+			children = (
+				0AFF49762BA9769F007B87A3 /* WelcomeView.swift */,
+			);
+			path = "Project_3-TajMahal";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A6D6E6B2B83D657006CC22B /* OpenClassroomsProjectsApp.swift in Sources */,
+				0AFF49772BA9769F007B87A3 /* WelcomeView.swift in Sources */,
 				0A6D6E7C2B83D8D2006CC22B /* AnimalsListView.swift in Sources */,
 				0A6D6E802B83DB6A006CC22B /* AddNewAnimalView.swift in Sources */,
 				0A6D6E822B83DBC8006CC22B /* ViewModel.swift in Sources */,
