@@ -9,7 +9,13 @@ import SwiftUI
 
 struct WelcomeView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            Image(.tajMahal)
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(width: 335, height: 423)
+            Spacer()
+        }
     }
 }
 
