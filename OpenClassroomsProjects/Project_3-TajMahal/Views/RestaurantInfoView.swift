@@ -9,7 +9,23 @@ import SwiftUI
 
 struct RestaurantInfoView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            VStack(alignment: .leading) {
+                Text("Restaurant Indien")
+                    .foregroundStyle(.customLightGray)
+                    .font(.custom(TextFont.font400, size: 12))
+                Text("Taj Mahal")
+                    .foregroundStyle(.customDarkGray)
+                    .font(.custom(TextFont.font700, size: 18))
+            }
+            Spacer()
+            Image(.logo)
+                .resizable()
+                .renderingMode(.template)
+                .foregroundStyle(.customGray)
+                .frame(width: 40, height: 40)
+        }
+        .frame(width: 335, height: 40)
     }
 }
 
