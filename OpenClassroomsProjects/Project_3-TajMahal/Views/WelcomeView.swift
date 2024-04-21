@@ -15,6 +15,14 @@ struct WelcomeView: View {
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 335, height: 423)
             Spacer()
+            RestaurantInfoView()
+            Spacer()
+            VStack {
+                ForEach(details) { detail in
+                    RestaurantDetailView(detailData: detail)
+                }
+            }
+            Spacer()
         }
     }
 }
