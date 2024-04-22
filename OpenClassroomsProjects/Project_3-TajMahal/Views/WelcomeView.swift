@@ -23,6 +23,17 @@ struct WelcomeView: View {
                 }
             }
             Spacer()
+            NavigationLink {
+                // Mettre lien vers MenuView
+            } label : {
+                Text("Accéder au menu")
+                    .foregroundStyle(Color.white)
+                    .font(.custom(TextFont.font700, size: 16))
+            }
+            .frame(width: 335, height: 40)
+            .background(.customRed)
+            .clipShape(RoundedRectangle(cornerRadius: 10))
+            Spacer()
         }
     }
 }
