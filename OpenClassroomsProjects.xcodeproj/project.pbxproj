@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A1211BE2BBE6A9600598593 /* RestaurantDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1211BD2BBE6A9600598593 /* RestaurantDetail.swift */; };
+		0A1211C02BBE6C8F00598593 /* RestaurantInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1211BF2BBE6C8F00598593 /* RestaurantInfoView.swift */; };
+		0A1211C32BBE6D5200598593 /* PlusJakartaSans-Bold-700.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A1211C22BBE6D5200598593 /* PlusJakartaSans-Bold-700.ttf */; };
+		0A1211CB2BBE6E1A00598593 /* PlusJakartaSans-SemiBold-600.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A1211CA2BBE6E1A00598593 /* PlusJakartaSans-SemiBold-600.ttf */; };
+		0A1211CD2BBE6E2600598593 /* PlusJakartaSans-Regular-400.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A1211CC2BBE6E2600598593 /* PlusJakartaSans-Regular-400.ttf */; };
+		0A647BA02BD4195C007370E5 /* RestaurantDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A647B9F2BD4195C007370E5 /* RestaurantDetailView.swift */; };
+		0A66A6DE2BD7139300FE3433 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A66A6DD2BD7139300FE3433 /* MenuView.swift */; };
+		0A66A6E02BD8C77900FE3433 /* MenuCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A66A6DF2BD8C77900FE3433 /* MenuCellView.swift */; };
+		0A66A6E22BD8C81700FE3433 /* PepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A66A6E12BD8C81700FE3433 /* PepperView.swift */; };
 		0A6D6E6B2B83D657006CC22B /* OpenClassroomsProjectsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6D6E6A2B83D657006CC22B /* OpenClassroomsProjectsApp.swift */; };
 		0A6D6E6F2B83D659006CC22B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A6D6E6E2B83D659006CC22B /* Assets.xcassets */; };
 		0A6D6E722B83D659006CC22B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A6D6E712B83D659006CC22B /* Preview Assets.xcassets */; };
@@ -14,10 +23,22 @@
 		0A6D6E7E2B83DABF006CC22B /* AnimalDetailVew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6D6E7D2B83DABF006CC22B /* AnimalDetailVew.swift */; };
 		0A6D6E802B83DB6A006CC22B /* AddNewAnimalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6D6E7F2B83DB6A006CC22B /* AddNewAnimalView.swift */; };
 		0A6D6E822B83DBC8006CC22B /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6D6E812B83DBC8006CC22B /* ViewModel.swift */; };
+		0A7F649E2BDC3F670006A74A /* DescriptionOfTheDishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7F649D2BDC3F670006A74A /* DescriptionOfTheDishView.swift */; };
 		0AFF49772BA9769F007B87A3 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFF49762BA9769F007B87A3 /* WelcomeView.swift */; };
+		0AFF49A02BB1CA86007B87A3 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFF499F2BB1CA86007B87A3 /* DataModel.swift */; };
+		0AFF49A42BB1CD8D007B87A3 /* TableOfMenus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFF49A32BB1CD8D007B87A3 /* TableOfMenus.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A1211BD2BBE6A9600598593 /* RestaurantDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetail.swift; sourceTree = "<group>"; };
+		0A1211BF2BBE6C8F00598593 /* RestaurantInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantInfoView.swift; sourceTree = "<group>"; };
+		0A1211C22BBE6D5200598593 /* PlusJakartaSans-Bold-700.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-Bold-700.ttf"; sourceTree = "<group>"; };
+		0A1211CA2BBE6E1A00598593 /* PlusJakartaSans-SemiBold-600.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-SemiBold-600.ttf"; sourceTree = "<group>"; };
+		0A1211CC2BBE6E2600598593 /* PlusJakartaSans-Regular-400.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-Regular-400.ttf"; sourceTree = "<group>"; };
+		0A647B9F2BD4195C007370E5 /* RestaurantDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailView.swift; sourceTree = "<group>"; };
+		0A66A6DD2BD7139300FE3433 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		0A66A6DF2BD8C77900FE3433 /* MenuCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCellView.swift; sourceTree = "<group>"; };
+		0A66A6E12BD8C81700FE3433 /* PepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PepperView.swift; sourceTree = "<group>"; };
 		0A6D6E672B83D657006CC22B /* OpenClassroomsProjects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenClassroomsProjects.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A6D6E6A2B83D657006CC22B /* OpenClassroomsProjectsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenClassroomsProjectsApp.swift; sourceTree = "<group>"; };
 		0A6D6E6E2B83D659006CC22B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -26,7 +47,10 @@
 		0A6D6E7D2B83DABF006CC22B /* AnimalDetailVew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailVew.swift; sourceTree = "<group>"; };
 		0A6D6E7F2B83DB6A006CC22B /* AddNewAnimalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewAnimalView.swift; sourceTree = "<group>"; };
 		0A6D6E812B83DBC8006CC22B /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		0A7F649D2BDC3F670006A74A /* DescriptionOfTheDishView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionOfTheDishView.swift; sourceTree = "<group>"; };
 		0AFF49762BA9769F007B87A3 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		0AFF499F2BB1CA86007B87A3 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		0AFF49A32BB1CD8D007B87A3 /* TableOfMenus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableOfMenus.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +64,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A1211C12BBE6CEF00598593 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0A1211C22BBE6D5200598593 /* PlusJakartaSans-Bold-700.ttf */,
+				0A1211CA2BBE6E1A00598593 /* PlusJakartaSans-SemiBold-600.ttf */,
+				0A1211CC2BBE6E2600598593 /* PlusJakartaSans-Regular-400.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		0A6D6E5E2B83D657006CC22B = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +98,7 @@
 				0AE1C5EF2BA7A5340045661C /* Project_3-TajMahal */,
 				0A6D6E6E2B83D659006CC22B /* Assets.xcassets */,
 				0A6D6E702B83D659006CC22B /* Preview Content */,
+				0A1211C12BBE6CEF00598593 /* Fonts */,
 			);
 			path = OpenClassroomsProjects;
 			sourceTree = "<group>";
@@ -90,9 +125,34 @@
 		0AE1C5EF2BA7A5340045661C /* Project_3-TajMahal */ = {
 			isa = PBXGroup;
 			children = (
-				0AFF49762BA9769F007B87A3 /* WelcomeView.swift */,
+				0AFF499D2BB1CA2D007B87A3 /* Views */,
+				0AFF499E2BB1CA47007B87A3 /* Model */,
 			);
 			path = "Project_3-TajMahal";
+			sourceTree = "<group>";
+		};
+		0AFF499D2BB1CA2D007B87A3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0AFF49762BA9769F007B87A3 /* WelcomeView.swift */,
+				0A1211BF2BBE6C8F00598593 /* RestaurantInfoView.swift */,
+				0A647B9F2BD4195C007370E5 /* RestaurantDetailView.swift */,
+				0A66A6DD2BD7139300FE3433 /* MenuView.swift */,
+				0A66A6DF2BD8C77900FE3433 /* MenuCellView.swift */,
+				0A66A6E12BD8C81700FE3433 /* PepperView.swift */,
+				0A7F649D2BDC3F670006A74A /* DescriptionOfTheDishView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0AFF499E2BB1CA47007B87A3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0AFF499F2BB1CA86007B87A3 /* DataModel.swift */,
+				0AFF49A32BB1CD8D007B87A3 /* TableOfMenus.swift */,
+				0A1211BD2BBE6A9600598593 /* RestaurantDetail.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +213,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A1211CD2BBE6E2600598593 /* PlusJakartaSans-Regular-400.ttf in Resources */,
+				0A1211CB2BBE6E1A00598593 /* PlusJakartaSans-SemiBold-600.ttf in Resources */,
+				0A1211C32BBE6D5200598593 /* PlusJakartaSans-Bold-700.ttf in Resources */,
 				0A6D6E722B83D659006CC22B /* Preview Assets.xcassets in Resources */,
 				0A6D6E6F2B83D659006CC22B /* Assets.xcassets in Resources */,
 			);
@@ -165,11 +228,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AFF49A02BB1CA86007B87A3 /* DataModel.swift in Sources */,
+				0A66A6DE2BD7139300FE3433 /* MenuView.swift in Sources */,
 				0A6D6E6B2B83D657006CC22B /* OpenClassroomsProjectsApp.swift in Sources */,
 				0AFF49772BA9769F007B87A3 /* WelcomeView.swift in Sources */,
+				0A66A6E02BD8C77900FE3433 /* MenuCellView.swift in Sources */,
+				0A1211C02BBE6C8F00598593 /* RestaurantInfoView.swift in Sources */,
 				0A6D6E7C2B83D8D2006CC22B /* AnimalsListView.swift in Sources */,
 				0A6D6E802B83DB6A006CC22B /* AddNewAnimalView.swift in Sources */,
 				0A6D6E822B83DBC8006CC22B /* ViewModel.swift in Sources */,
+				0A1211BE2BBE6A9600598593 /* RestaurantDetail.swift in Sources */,
+				0AFF49A42BB1CD8D007B87A3 /* TableOfMenus.swift in Sources */,
+				0A7F649E2BDC3F670006A74A /* DescriptionOfTheDishView.swift in Sources */,
+				0A647BA02BD4195C007370E5 /* RestaurantDetailView.swift in Sources */,
+				0A66A6E22BD8C81700FE3433 /* PepperView.swift in Sources */,
 				0A6D6E7E2B83DABF006CC22B /* AnimalDetailVew.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
