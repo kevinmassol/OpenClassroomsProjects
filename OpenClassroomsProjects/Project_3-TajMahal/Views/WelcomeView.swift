@@ -24,7 +24,7 @@ struct WelcomeView: View {
             }
             Spacer()
             NavigationLink {
-                // Mettre lien vers MenuView
+                MenuView()
             } label : {
                 Text("Accéder au menu")
                     .foregroundStyle(Color.white)

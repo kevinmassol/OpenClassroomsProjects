@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum SpiceLevel: Int, CaseIterable {
+enum SpiceLevel: Int {
     case light = 1
     case medium = 2
     case hot = 3
